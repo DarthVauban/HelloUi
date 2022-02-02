@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.header-logo {
+    padding-right: 180px;
+}
+
+.menu_item {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.auth_button {
+    display: flex;
+    align-items: center;
+}
+
+.sigin-in {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+}
+
+.try-free {
+    background-color: #0555FF;
+    color: white;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 120px;
+}
+
+.main_content {
+    margin: 0 auto;
+}
+
+.head_text {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    text-align: center;
+    color: #050038;
+    margin: 0;
+}
+
+.secondary-text {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #5B5E6D;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.first_button {
+    background-color: #0555FF;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.second_button {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+    color: #0555FF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.preview {
+    margin-top: 120px;
+}
+
+.preview-content {
+    display: flex;
+}
+
+.partners {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.partners-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.partners-text {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #5B5E6D;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 190px;
+    width: 100%;
+    max-height: 35px;
+    height: 100%;
+}
+
+.partners-slider {
+    align-items: center;
+}
+
+.slide_img {
+    margin: 0;
+    padding: 0;
+}
+
+.slick-initialized .slick-slide {
+    max-width: 190px;
+    width: 190px !important;
+}
