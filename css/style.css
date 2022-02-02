@@ -119,6 +119,10 @@
     margin-bottom: 100px;
 }
 
+.partners-content {
+    width: 100%;
+}
+
 .partners-title {
     display: flex;
     justify-content: center;
@@ -154,4 +158,41 @@
 .slick-initialized .slick-slide {
     max-width: 190px;
     width: 190px !important;
+}
+
+.slick-dots {
+    list-style: none;
+    max-width: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.slick-dots li {
+    position: relative;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #C4C4C4;
+    border-radius: 1px;
+    left: 0;
+}
+
+.slick-dots .slick-active::after {
+    background: #050038;
 }
