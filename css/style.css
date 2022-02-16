@@ -831,17 +831,21 @@
     .main_buttons {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .main_buttons .first_button {
         font-size: 14px;
         margin: 0;
         margin-bottom: 30px;
         padding: 10px 20px;
+        width: 80%;
     }
     .main_buttons .second_button {
         font-size: 14px;
         padding: 10px 20px;
         margin-bottom: 15px;
+        width: 80%;
     }
     .preview {
         margin-top: 60px;
