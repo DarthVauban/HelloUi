@@ -565,7 +565,7 @@
         font-size: 35px;
     }
 }
-@media (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 899px) {
     .main_content .main_text .head_text {
         font-size: 60px;
         line-height: normal;
@@ -674,6 +674,7 @@
     }
     .main_buttons .first_button {
         margin-bottom: 30px;
+        margin-left: 0px;
     }
     .preview {
         margin-top: 60px;
@@ -702,7 +703,171 @@
         margin-top: 20px;
     }
     .develop {
+        margin-top: 60px;
+    }
+    .build {
         margin-top: 10px;
+    }
+    .update {
+        margin-top: 10px;
+    }
+    .develop__title {
+        font-size: 30px;
+    }
+    .develop__descr {
+        font-size: 14px;
+    }
+    .develop__link {
+        margin-bottom: 30px;
+    }
+    .partners-content .partners-title {
+        text-align: center;
+    }
+    .develop-content {
+        flex-direction: column;
+        max-width: 700px;
+        width: 100%;
+    }
+    .develop-content .develop__img {
+        position: relative;
+        left: 20px;
+        width: 100%;
+    }
+    .build-content .build__img {
+        position: relative;
+        right: 20px;
+        width: 100%;
+    }
+    .update-content .update__img {
+        position: relative;
+        left: 20px;
+        width: 100%;
+    }
+    .build-content {
+        flex-direction: column-reverse;
+        max-width: 700px;
+        width: 100%;
+    }
+    .update-content {
+        flex-direction: column;
+        max-width: 700px;
+        width: 100%;
+    }
+    .develop_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .develop_text .develop__title {
+        text-align: center;
+    }
+    .develop_text .develop__descr{
+        text-align: center;
+    }
+    .preview-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .twit-header {
+        margin: 0;
+    }
+    .twit-header .twitt__title {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .twit-header .sub__title {
+        font-size: 14px;
+        margin: 0;
+    }
+    .card-item .user-twit .twit  {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .footer {
+        margin-top: 60px;
+    }
+    .footer .footer-title {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+    .email_input {
+        max-width: 380px;
+        padding: 12px 15px;
+    }
+    ::placeholder {
+        font-size: 14px;
+    }
+    .footer-btn {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+    .footer-navigation {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 424px) {
+    .header {
+        display: none;
+    }
+    .main_content .main_text .head_text {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .main_content .description .secondary-text {
+        font-size: 14px;
+        line-height: normal;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .main_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_buttons .first_button {
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+    }
+    .main_buttons .second_button {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+    }
+    .preview {
+        margin-top: 60px;
+    }
+    .preview-img .prev_img {
+        width: 100%;
+    }
+    .preview-content .elements-left {
+        display: none;
+    }
+    .preview-content .elements-rigtht {
+        display: none;
+    }
+    .partners {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .how-it-work .how-it-work-content .how-title {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .how-it-work .how-it-work-content .how-descr {
+        font-size: 14px;
+    }
+    .how-it-work .how-it-work-content .how_btn {
+        margin-top: 20px;
+    }
+    .develop {
+        margin-top: 60px;
     }
     .build {
         margin-top: 10px;
