@@ -421,6 +421,9 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px 0px 0px 10px;
     border-right: none;
+    color: white;
+    font-size: 22px;
+    outline: none;
 }
 
 ::placeholder {
