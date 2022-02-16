@@ -4,7 +4,8 @@
 }
 
 .container {
-    width: 1320px;
+    max-width: 1320px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -67,6 +68,20 @@
     text-align: center;
     color: #050038;
     margin: 0;
+}
+.elements-left {
+    position: relative;
+}
+
+.left-items {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.right-items {
+    position: absolute;
+    left: 50px;
 }
 
 .prev_img {
@@ -311,10 +326,6 @@
     flex-wrap: wrap;
 }
 
-.user-cards>* {
-    flex: 1 1 400px;
-}
-
 .card-item {
     background-color: white;
     padding: 20px;
@@ -501,5 +512,97 @@
     }
     .update__img {
         width: 50%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1099px) {
+    .header-logo {
+        padding-right: 100px;
+    }
+    .main_content .main_text .head_text {
+        font-size: 86px;
+    }
+    .preview-content .elements-left {
+        display: none;
+    }
+    .preview-content .elements-rigtht {
+        display: none;
+    }
+    .develop-content .develop__img {
+        width: 55%;
+    }
+    .develop-content .build__img {
+        width: 55%;
+    }
+    .develop-content .update__img {
+        width: 55%;
+    }
+    .develop_text .develop__title {
+        font-size: 52px;
+    }
+    .develop_text .develop__descr {
+        font-size: 16px;
+    }
+    .develop_text .develop__link {
+        font-size: 14px;
+    }
+    .twit-header .sub__title {
+        font-size: 14px;
+    }
+    .twit-header .twitt__title {
+        font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .main_content .main_text .head_text {
+        font-size: 60px;
+        line-height: normal;
+    }
+    .preview-content .elements-left {
+        display: none;
+    }
+    .preview-content .elements-rigtht {
+        display: none;
+    }
+    .develop-content .develop__img {
+        display: none;
+    }
+    .develop-content .build__img {
+        display: none;
+    }
+    .develop-content .update__img {
+        display: none;
+    }
+    .develop_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .develop_text .develop__title {
+        text-align: center;
+    }
+    .develop_text .develop__descr{
+        text-align: center;
+    }
+    .twit-header .twitt__title {
+        font-size: 35px;
+    }
+    .user-cards .card-item {
+        max-width: 47%;
+    }
+    .footer-title {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .footer-input .email_input {
+        max-width: 400px;
+    }
+    .footer-navigation {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .footer-links {
+        flex-wrap: wrap;
+        margin-top: 30px;
     }
 }
