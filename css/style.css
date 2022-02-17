@@ -13,6 +13,81 @@
     padding-right: 20px;
 }
 
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    max-width: 240px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: -280px;
+    z-index: 3;
+}
+.mobile-menu-active {
+    display: flex;
+    right: 0;
+}
+.burger-menu {
+    display: none;
+    margin-top: 30px;
+}
+.mobile-menu-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.mobile-logo {
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.mobile-menu-items {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.mobile-menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mobile-menu-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 30px;
+    margin-top: 20px;
+}
+.mobile-sigin-in {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+    color: black;
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+}
+.mobile-try-free {
+    background-color: #0555FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 80%;
+    margin-top: 20px;
+}
 .header_content {
     display: flex;
     justify-content: space-between;
@@ -569,6 +644,15 @@
     }
 }
 @media (min-width: 768px) and (max-width: 899px) {
+    .header-logo {
+        display: none;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .auth_button {
+        display: none;
+    }
     .main_content .main_text .head_text {
         font-size: 60px;
         line-height: normal;
@@ -661,7 +745,13 @@
     }
 }
 @media (min-width: 425px) and (max-width: 767px) {
-    .header {
+    .header-logo {
+        display: none;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .auth_button {
         display: none;
     }
     .main_content .main_text .head_text {
@@ -815,7 +905,13 @@
     }
 }
 @media (min-width: 320px) and (max-width: 424px) {
-    .header {
+    .header-logo {
+        display: none;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .auth_button {
         display: none;
     }
     .main_content .main_text .head_text {
@@ -976,5 +1072,11 @@
     }
     .footer-links {
         flex-direction: column;
+    }
+}
+@media (max-width: 900px) {
+    .burger-menu {
+        display: block;
+        cursor: pointer;
     }
 }
